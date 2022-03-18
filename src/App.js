@@ -13,9 +13,9 @@ export default function App() {
         <div className="main">
           <CurrencyConverter />
           <Feed />
+          <Ticker />
         </div>
 
-        {/*<Ticker />*/}
       </div>
       <Footer />
     </>

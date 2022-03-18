@@ -95,6 +95,7 @@ code {
 .CurrencyConverterTable {
   background-color: slategrey;
   border-radius: 10px;
+  padding: 5px;
 }
 
 .ExchangeRate {
@@ -103,9 +104,10 @@ code {
 }
 
 .Ticker {
+  cursor: default;
   border-radius: 25px;
-  background-color: slateblue;
-  padding: 10px;
+  background-color: royalblue;
+  padding: 20px;
   margin: 10px;
   box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
   text-align: center;
@@ -114,4 +116,5 @@ code {
 .Footer {
   color: whitesmoke;
   background-color: darkslategray;
+
 }
