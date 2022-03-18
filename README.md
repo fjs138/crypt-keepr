@@ -1,4 +1,5 @@
-# Getting Started with Create React App
+# CryptKeepr
+[![Netlify Status](https://api.netlify.com/api/v1/badges/3e01cfbb-cf04-4379-8587-5f6a806650f0/deploy-status)](https://app.netlify.com/sites/stoic-beaver-5c50a6/deploys)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
