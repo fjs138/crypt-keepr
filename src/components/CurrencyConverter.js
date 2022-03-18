@@ -86,7 +86,7 @@ export default function CurrencyConverter() {
             <tr>
               <td className="unselectable">To</td>
               <td>
-                <h1>{amountToConvertTo}</h1>
+                <h2>{amountToConvertTo?amountToConvertTo:'Loading...'}</h2>
               </td>
               <td>
                 <select

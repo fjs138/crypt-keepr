@@ -8,7 +8,7 @@ export default function App() {
   return (
     <>
       <div className="App">
-        <img alt="logo" style={{ padding: ".4em" }} src={logo} />
+        <img className="pointerEventsNone" alt="logo" style={{ padding: ".4em" }} src={logo} />
 
         <div className="main">
           <CurrencyConverter />

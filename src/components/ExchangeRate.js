@@ -6,7 +6,7 @@ export default function ExchangeRate({ exchangeRate }) {
       <h1 className="unselectable">Exchange Rate</h1>
 
       <div className="ExchangeRate">
-        <h2>{parsedExchangeRate}</h2>
+        <h2>{parsedExchangeRate?parsedExchangeRate:'Loading...'}</h2>
       </div>
     </>
   );

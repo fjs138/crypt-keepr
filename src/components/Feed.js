@@ -30,8 +30,9 @@ export default function Feed() {
 
   return (
     <div className="Feed">
-      {!newsFeed ? <p>Loading</p> : <></>}
       <h1 className="unselectable">Feed</h1>
+      {!newsFeed ? <p>Loading</p> : <></>}
+
       {newsFeedSliced?.map((e, index) => (
         <div className="headline" key={index}>
           <a href={e.url} target="_blank" rel="noreferrer">
