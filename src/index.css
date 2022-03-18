@@ -1,13 +1,103 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
+a:link,
+a:visited {
+  border-radius: 0.2em;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  padding: 0.2em;
+}
+
+img {
+  max-width: 90%;
+}
+
+a:hover,
+a:active {
+  background-color: rgba(44, 22, 444, 40);
+  border-radius: 0.4em;
+}
+
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.App {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex: auto;
+  flex-grow: inherit;
+  background-color: mediumseagreen;
+  padding: 1em 1em 5em;
+}
+
+.main {
+  color: antiquewhite;
+  flex: auto;
+  /*flex-direction: column;*/
+  display: flex;
+  align-items: center;
+  padding-right: 1em;
+  padding-left: 1em;
+}
+
+.Feed {
+  border-radius: 25px;
+  background-color: royalblue;
+  padding: 10px;
+  margin: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
+  max-width: 60%;
+  text-align: center;
+}
+
+.headline {
+  background-color: steelblue;
+  padding: 0.5em;
+  border-radius: 25px;
+  margin-bottom: 0.5em;
+}
+
+.CurrencyConverter {
+  border-radius: 25px;
+  background-color: royalblue;
+  padding: 10px;
+  margin: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
+  text-align: center;
+}
+
+.CurrencyConverterTable {
+  background-color: slategrey;
+  border-radius: 10px;
+}
+
+.ExchangeRate {
+  background-color: slategrey;
+  border-radius: 10px;
+}
+
+.Ticker {
+  border-radius: 25px;
+  background-color: slateblue;
+  padding: 10px;
+  margin: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
+  text-align: center;
+}
+
+.Footer {
+  color: whitesmoke;
+  background-color: darkslategray;
 }
