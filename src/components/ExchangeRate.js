@@ -3,7 +3,7 @@ export default function ExchangeRate({ exchangeRate }) {
   const parsedExchangeRate = parseFloat(exchangeRate);
   return (
     <>
-      <h1>Exchange Rate</h1>
+      <h1 className="unselectable">Exchange Rate</h1>
 
       <div className="ExchangeRate">
         <h2>{parsedExchangeRate}</h2>

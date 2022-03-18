@@ -9,6 +9,7 @@ export default function CurrencyConverter() {
   const [amountToConvertFrom, setAmountToConvertFrom] = useState(1);
   const [amountToConvertTo, setAmountToConvertTo] = useState(0);
   const [exchangeRate, setExchangeRate] = useState();
+  const [apiError,setApiError] = useState('apierror')
   // const [fromAmount, setFromAmount] = useState(1);
   // const [toAmount, setToAmount] = useState(1);
 
@@ -41,6 +42,7 @@ export default function CurrencyConverter() {
       })
       .catch(function (error) {
         console.error(error);
+        setApiError(error)
       });
   }
 
@@ -53,12 +55,12 @@ export default function CurrencyConverter() {
 
   return (
     <div className="CurrencyConverter">
-      <h1>Convert</h1>
+      <h1 className="unselectable">Convert</h1>
       <div className="CurrencyConverterTable">
         <table>
           <tbody>
             <tr>
-              <td>From</td>
+              <td className="unselectable">From</td>
               <td>
                 <input
                   onChange={(e) => setAmountToConvertFrom(e.target.value)}
@@ -82,7 +84,7 @@ export default function CurrencyConverter() {
               </td>
             </tr>
             <tr>
-              <td>To</td>
+              <td className="unselectable">To</td>
               <td>
                 <h1>{amountToConvertTo}</h1>
               </td>

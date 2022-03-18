@@ -26,14 +26,12 @@ export default function Feed() {
 
   let newsFeedSliced = newsFeed?.slice(0, 4);
 
-  console.log(newsFeed);
-
   useEffect(getNews, []);
 
   return (
     <div className="Feed">
       {!newsFeed ? <p>Loading</p> : <></>}
-      <h1>Feed</h1>
+      <h1 className="unselectable">Feed</h1>
       {newsFeedSliced?.map((e, index) => (
         <div className="headline" key={index}>
           <a href={e.url} target="_blank" rel="noreferrer">
