@@ -23,8 +23,9 @@ img {
 
 a:hover,
 a:active {
-  background-color: rgba(44, 22, 444, 40);
-  border-radius: 0.4em;
+  /*background-color: rgba(44, 22, 444, 40);*/
+  background-color: rgba(219, 219, 219, 0.24);
+  border-radius: 1em;
 }
 
 code {
@@ -38,7 +39,7 @@ code {
   flex-direction: column;
   flex: auto;
   flex-grow: inherit;
-  background-color: mediumseagreen;
+  background-color: rgba(55,55,255,.7);
   padding: 1em 1em 5em;
 
 }
@@ -67,25 +68,26 @@ code {
 .Feed {
   cursor: default;
   border-radius: 25px;
-  background-color: royalblue;
-  padding: 20px;
-  margin: 10px;
+  background-color: mediumseagreen;
+  padding: 1em;
+  margin: 1em;
   box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
   /*max-width: 60%;*/
   text-align: center;
 }
 
 .headline {
-  background-color: steelblue;
+  background-color: rgba(55,55,255,.7);
   padding: 0.5em;
   border-radius: 25px;
-  margin-bottom: 0.5em;
+  margin-bottom: 0.25em;
+  margin-top: .25em;
 }
 
 .CurrencyConverter {
   cursor: default;
   border-radius: 25px;
-  background-color: royalblue;
+  background-color: mediumseagreen;
   padding: 20px;
   margin: 10px;
   box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
@@ -93,20 +95,20 @@ code {
 }
 
 .CurrencyConverterTable {
-  background-color: slategrey;
+  background-color: rgba(55,55,255,.7);
   border-radius: 10px;
   padding: 5px;
 }
 
 .ExchangeRate {
-  background-color: slategrey;
+  background-color: rgba(55,55,255,.7);
   border-radius: 10px;
 }
 
 .Ticker {
   cursor: default;
   border-radius: 25px;
-  background-color: royalblue;
+  background-color: mediumseagreen;
   padding: 20px;
   margin: 10px;
   box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
