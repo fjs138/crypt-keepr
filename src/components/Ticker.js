@@ -66,8 +66,8 @@ export default function Ticker() {
   return (
     <div className="Ticker unselectable">
       <h1>Ticker</h1>
-      <h2>Pton:{pton}</h2>
-      <h2>Zoom:{pton}</h2>
+      <h2>Pton: {pton}</h2>
+      <h2>Zoom: {zm}</h2>
     </div>
   );
 }
