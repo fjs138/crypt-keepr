@@ -1,5 +1,5 @@
 # CryptKeepr
-A clone of the wildly popular social message board Reddit. 
+dashboard for crypto news, calculator, tickers
 <br>
 
 ## Deployment
