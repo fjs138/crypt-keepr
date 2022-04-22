@@ -9,17 +9,22 @@ https://cryptkeepr.com
 
 
 ## The Goal
-Lorem ipsum
+I wanted a way to quickly check the value of bitcoin, peloton, and zoom, without having to login or share credentials or private information.
+
+I also wanted to access this dashboard of information from anywhere, so a web app made the most sense.
+
 
 ## Technology Stack
 
 | Technology    	| Use           	  | Description     	|
 | :------------------|:-------------------| :----------------	|
-| HTML, CSS, JS 			| Languages     | 	Sass for CSS			  |
+| HTML, CSS, JS 			| Languages     | 				  |
 | React	| Front-end			  |	JavaScript library for building user interfaces            |
 
 ## Project Specifications
-
+Display a calculator for converting crypto currencies
+Display a news headline widget
+Display stock prices
 
 ## Anatomy of Project
 
