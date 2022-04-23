@@ -66,8 +66,8 @@ export default function Ticker() {
   return (
     <div className="Ticker unselectable">
       <h1>Last Close</h1>
-      <h2 className="headline">PTON   ${pton.toFixed(2)}</h2>
-      <h2 className="headline">ZM   ${zm.toFixed(2)}</h2>
+      <h2 className="headline">PTON   ${pton/*.toFixed(2)*/}</h2>
+      <h2 className="headline">ZM   ${zm/*.toFixed(2)*/}</h2>
     </div>
   );
 }
