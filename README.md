@@ -9,9 +9,7 @@ https://cryptkeepr.com
 
 
 ## The Goal
-I wanted a way to quickly check the value of bitcoin, peloton, and zoom, without having to login or share credentials or private information.
-
-I also wanted to access this dashboard of information from anywhere, so a web app made the most sense.
+I wanted a way to quickly check the value of Bitcoin, Peloton, and Zoom, from a single view, without any authentication or credential requirements.
 
 
 ## Technology Stack
