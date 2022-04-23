@@ -19,6 +19,7 @@ I wanted a way to quickly check the value of Bitcoin, Peloton, and Zoom, from a 
 | HTML, CSS, JS 			| Languages     | 				  |
 | React	| Front-end			  |	JavaScript library for building user interfaces            |
 |Axios|	http client|	A library for server communications; Axios is a Promise-based HTTP client that works in both browsers and Node.|
+|dotenv| obfuscate credentials| Dotenv is a zero-dependency module that loads environment variables from a .env file into process.env.|
 
 ## Project Specifications
 Display a calculator for converting crypto currencies
@@ -30,10 +31,10 @@ Display stock prices
 
 | File/Folder    	| Purpose           	  |
 | :------------------|:-------------------|
-| src/pages		 			| Main Site Pages|
-| src/components		 			| React Components    |
-| src/posts	 			| Markdown Posts (deprecated)     |
-| src/templates| Individual Blog Post Template     |
+| src/components/CurrencyConverter.js		 			| Currency converter component|
+| src/components/ExchangeRate.js		 			| Exchange rate component    |
+| src/components/Feed.js	 			| Crypto news component     |
+| src/components/Ticker.js| Stock ticker component     |
 
 
 
