@@ -20,6 +20,7 @@ I also wanted to access this dashboard of information from anywhere, so a web ap
 | :------------------|:-------------------| :----------------	|
 | HTML, CSS, JS 			| Languages     | 				  |
 | React	| Front-end			  |	JavaScript library for building user interfaces            |
+|Axios|	http client|	A library for server communications; Axios is a Promise-based HTTP client that works in both browsers and Node.|
 
 ## Project Specifications
 Display a calculator for converting crypto currencies
