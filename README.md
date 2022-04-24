@@ -1,5 +1,5 @@
 # CryptKeepr
-dashboard for crypto news, calculator, tickers
+Dashboard for crypto news, calculator, tickers<br>
 <br>
 
 ## Deployment
