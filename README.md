@@ -22,7 +22,7 @@ I wanted a way to quickly check the value of Bitcoin, Peloton, and Zoom, from a 
 |dotenv| obfuscate credentials| Dotenv is a zero-dependency module that loads environment variables from a .env file into process.env.|
 
 ## Project Specifications
-* Display a calculator for converting US dollars and crypto.
+* Display a calculator for converting US dollars and crypto
 * Display a crypto news widget
 * Display pertinent stock prices 
 
