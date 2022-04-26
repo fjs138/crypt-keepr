@@ -1,6 +1,5 @@
 # CryptKeepr
-Dashboard for crypto news, calculator, tickers<br>
-<br>
+Dashboard for crypto news, calculator, using React and data from API's.<br>
 
 ## Deployment
 [![Netlify Status](https://api.netlify.com/api/v1/badges/3e01cfbb-cf04-4379-8587-5f6a806650f0/deploy-status)](https://app.netlify.com/sites/stoic-beaver-5c50a6/deploys)
