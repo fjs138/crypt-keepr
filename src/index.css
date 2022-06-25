@@ -6,7 +6,10 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+.tick{
+  padding: .1em;
+  margin: 0;
+}
 a:link,
 a:visited {
   border-radius: 0.2em;
@@ -89,8 +92,8 @@ code {
 .CurrencyConverter {
   cursor: default;
   border-radius: 25px;
-  padding: 20px;
-  margin: 10px;
+  padding: .1em;
+  margin: .2em;
   text-align: center;
   background-color: #93e1d8;
 }
@@ -99,19 +102,21 @@ code {
   background-color: #ffa69e;
   border-radius: 10px;
   padding: .1em;
-  margin: .2em;
+  margin: .5em;
 }
 
 .ExchangeRate {
   background-color: #ffa69e;
   border-radius: 10px;
+  padding: .1em;
+  margin: 1em;
 }
 
 .Ticker {
   cursor: default;
   border-radius: 25px;
   background-color: #93e1d8;
-  padding: .1em;
+  padding: 1em;
   margin: .2em;
   text-align: center;
 }

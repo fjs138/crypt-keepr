@@ -66,7 +66,7 @@ export default function Ticker() {
   return (
     <div className="Ticker unselectable box-shadow">
       <h1>Last Close</h1>
-      <h2 className="headline box-shadow">PTON   ${pton}</h2>
+      <h2 className="headline box-shadow tick">PTON   ${pton}</h2>
       <h2 className="headline box-shadow">ZM   ${zm}</h2>
     </div>
   );
