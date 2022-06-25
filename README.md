@@ -23,6 +23,7 @@ I wanted a way to quickly check the value of Bitcoin, Peloton, and Zoom, from a 
 * Display a calculator for converting US dollars and crypto
 * Display a crypto news widget
 * Display pertinent stock prices 
+* Use a color scheme to reduce blood pressure and heart rate while viewing the markets
 
 ## Anatomy of Project
 
