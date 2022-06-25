@@ -26,6 +26,8 @@ a:active {
   /*background-color: rgba(44, 22, 444, 40);*/
   background-color: rgba(219, 219, 219, 0.24);
   border-radius: 1em;
+  /*box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;*/
+
 }
 
 code {
@@ -40,6 +42,7 @@ code {
   flex: auto;
   flex-grow: inherit;
   background-color: rgba(55,55,255,.7);
+  background-color: #ddfff7;
   padding: 1em 1em 5em;
 
 }
@@ -55,7 +58,7 @@ code {
 }
 
 .main {
-  color: antiquewhite;
+  color:white;
   flex: auto;
   flex-direction: column;
   display: flex;
@@ -68,16 +71,15 @@ code {
 .Feed {
   cursor: default;
   border-radius: 25px;
-  background-color: mediumseagreen;
+  background-color:#93e1d8;
   padding: 1em;
   margin: 1em;
-  box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
   /*max-width: 60%;*/
   text-align: center;
 }
 
 .headline {
-  background-color: rgba(55,55,255,.7);
+  background-color: #ffa69e;
   padding: 0.5em;
   border-radius: 25px;
   margin-bottom: 0.25em;
@@ -87,31 +89,29 @@ code {
 .CurrencyConverter {
   cursor: default;
   border-radius: 25px;
-  background-color: mediumseagreen;
   padding: 20px;
   margin: 10px;
-  box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
   text-align: center;
+  background-color: #93e1d8;
 }
 
 .CurrencyConverterTable {
-  background-color: rgba(55,55,255,.7);
+  background-color: #ffa69e;
   border-radius: 10px;
   padding: 5px;
 }
 
 .ExchangeRate {
-  background-color: rgba(55,55,255,.7);
+  background-color: #ffa69e;
   border-radius: 10px;
 }
 
 .Ticker {
   cursor: default;
   border-radius: 25px;
-  background-color: mediumseagreen;
+  background-color: #93e1d8;
   padding: 20px;
   margin: 10px;
-  box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
   text-align: center;
 }
 
@@ -120,3 +120,26 @@ code {
   background-color: darkslategray;
 
 }
+
+.box-shadow{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+/*.animate.fade {*/
+/*  animation-name: animate-fade;*/
+/*  !*animation-timing-function: cubic-bezier(0.26, 0.53, 0.74, 1.48);*!*/
+/*  animation-duration: 1s;*/
+/*}*/
+
+/*@keyframes animate-fade {*/
+/*  0% {*/
+/*    opacity: 0;*/
+/*    pointer-events:none;*/
+/*  }*/
+/*  100% {*/
+/*    transition: opacity 0.5s;*/
+/*    opacity: 1;*/
+/*  }*/
+
+
+/*}*/

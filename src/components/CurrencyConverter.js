@@ -54,9 +54,9 @@ export default function CurrencyConverter() {
   );
 
   return (
-    <div className="CurrencyConverter">
+    <div className="CurrencyConverter box-shadow">
       <h1 className="unselectable">Convert</h1>
-      <div className="CurrencyConverterTable">
+      <div className="CurrencyConverterTable box-shadow">
         <table>
           <tbody>
             <tr>

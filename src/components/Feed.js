@@ -29,12 +29,12 @@ export default function Feed() {
   useEffect(getNews, []);
 
   return (
-    <div className="Feed">
+    <div className="Feed box-shadow">
       <h1 className="unselectable">Feed</h1>
       {!newsFeed ? <p>Loading</p> : <></>}
 
       {newsFeedSliced?.map((e, index) => (
-        <div className="headline" key={index}>
+        <div className="headline box-shadow" key={index}>
           <a href={e.url} target="_blank" rel="noreferrer">
             {/*<p>{e.title}</p>*/}
             {
