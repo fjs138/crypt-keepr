@@ -12,33 +12,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.ticker-element{
-  padding: .1em;
-  margin: 0;
-}
-a:link,
-a:visited {
-  border-radius: 0.2em;
-  color: white;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  padding: 0.2em;
-}
-
-img {
-  max-width: 100%;
-}
-
-a:hover,
-a:active {
-  /*background-color: rgba(44, 22, 444, 40);*/
-  background-color: rgba(219, 219, 219, 0.24);
-  border-radius: 1em;
-  /*box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;*/
-
-}
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
@@ -55,17 +28,6 @@ code {
 
 }
 
-.pointerEventsNone{
-  pointer-events: none;
-}
-
-.unselectable {
-  -moz-user-select: none;
-  -webkit-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
-/**/
 .main {
   color:white;
   flex: auto;
@@ -77,6 +39,7 @@ code {
 
 }
 
+/* News Feed */
 .Feed {
   cursor: default;
   border-radius: 25px;
@@ -95,6 +58,7 @@ code {
   margin-top: .25em;
 }
 
+/* Currency Converter */
 .CurrencyConverter {
   cursor: default;
   border-radius: 25px;
@@ -118,6 +82,7 @@ code {
   margin: 1em;
 }
 
+/* Stock Ticker */
 .Ticker {
   cursor: default;
   border-radius: 25px;
@@ -127,6 +92,12 @@ code {
   text-align: center;
 }
 
+.ticker-element{
+  padding: .1em;
+  margin: 0;
+}
+
+/* Footer */
 .Footer {
   color: whitesmoke;
   background-color: darkslategray;
@@ -134,11 +105,8 @@ code {
 }
 
 
-
-
-
-/* style tweaks*/
-.nohlight {
+/* Tweaks */
+.no-highlight {
   -webkit-touch-callout: none; /* iOS Safari */
   -webkit-user-select: none; /* Safari */
   -khtml-user-select: none; /* Konqueror HTML */
@@ -151,7 +119,42 @@ code {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
+.pointerEventsNone{
+  pointer-events: none;
+}
 
+.unselectable {
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+a:link,
+a:visited {
+  border-radius: 0.2em;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  padding: 0.2em;
+}
+
+img {
+  max-width: 100%;
+}
+
+a:hover,
+a:active {
+  /*background-color: rgba(44, 22, 444, 40);*/
+  background-color: rgba(219, 219, 219, 0.24);
+  border-radius: 1em;
+  /*box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;*/
+
+}
+
+
+/* Animations */
 /*.animate.fade {*/
 /*  animation-name: animate-fade;*/
 /*  !*animation-timing-function: cubic-bezier(0.26, 0.53, 0.74, 1.48);*!*/
