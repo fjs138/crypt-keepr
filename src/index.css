@@ -44,7 +44,6 @@ code {
   flex-direction: column;
   flex: auto;
   flex-grow: inherit;
-  background-color: rgba(55,55,255,.7);
   background-color: #ddfff7;
   padding: 1em 1em 5em;
 
@@ -82,7 +81,7 @@ code {
 }
 
 .headline {
-  background-color: #ffa69e;
+  background-color: #f8968e;
   padding: 0.5em;
   border-radius: 25px;
   margin-bottom: 0.25em;
@@ -99,14 +98,14 @@ code {
 }
 
 .CurrencyConverterTable {
-  background-color: #ffa69e;
+  background-color: #f8968e;
   border-radius: 10px;
   padding: .1em;
   margin: .5em;
 }
 
 .ExchangeRate {
-  background-color: #ffa69e;
+  background-color: #f8968e;
   border-radius: 10px;
   padding: .1em;
   margin: 1em;
@@ -149,3 +148,13 @@ code {
 
 
 /*}*/
+
+.nohlight {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
