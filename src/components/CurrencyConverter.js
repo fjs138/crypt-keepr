@@ -54,7 +54,7 @@ export default function CurrencyConverter() {
   );
 
   return (
-    <div className="nohlight CurrencyConverter box-shadow">
+    <div className="no-highlight CurrencyConverter box-shadow">
       <h1 className="unselectable ">Convert</h1>
       <div className="CurrencyConverterTable box-shadow">
         <table>

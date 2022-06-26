@@ -6,7 +6,7 @@ export default function ExchangeRate({ exchangeRate }) {
       <h1 className="unselectable">Exchange Rate</h1>
 
       <div className="ExchangeRate box-shadow">
-        <h2 className="nohlight">{parsedExchangeRate?parsedExchangeRate:'API Limit...'}</h2>
+        <h2 className="no-highlight">{parsedExchangeRate?parsedExchangeRate:'API Limit...'}</h2>
       </div>
     </>
   );

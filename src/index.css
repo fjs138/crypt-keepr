@@ -11,7 +11,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-.tick{
+
+.ticker-element{
   padding: .1em;
   margin: 0;
 }
@@ -57,6 +58,7 @@ code {
 .pointerEventsNone{
   pointer-events: none;
 }
+
 .unselectable {
   -moz-user-select: none;
   -webkit-user-select: none;
@@ -131,9 +133,24 @@ code {
 
 }
 
+
+
+
+
+/* style tweaks*/
+.nohlight {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
+}
+
 .box-shadow{
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
+
 
 /*.animate.fade {*/
 /*  animation-name: animate-fade;*/
@@ -153,13 +170,3 @@ code {
 
 
 /*}*/
-
-.nohlight {
-  -webkit-touch-callout: none; /* iOS Safari */
-  -webkit-user-select: none; /* Safari */
-  -khtml-user-select: none; /* Konqueror HTML */
-  -moz-user-select: none; /* Old versions of Firefox */
-  -ms-user-select: none; /* Internet Explorer/Edge */
-  user-select: none; /* Non-prefixed version, currently
-                                  supported by Chrome, Edge, Opera and Firefox */
-}

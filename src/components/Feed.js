@@ -34,7 +34,7 @@ export default function Feed() {
       {!newsFeed ? <p>Loading</p> : <></>}
 
       {newsFeedSliced?.map((e, index) => (
-        <div className="headline box-shadow nohlight" key={index}>
+        <div className="headline box-shadow no-highlight" key={index}>
           <a href={e.url} target="_blank" rel="noreferrer">
             {/*<p>{e.title}</p>*/}
             {
