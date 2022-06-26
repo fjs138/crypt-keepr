@@ -2,8 +2,8 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 
 export default function Ticker() {
-  const [pton, setPton] = useState(' API Limit ');
-  const [zm, setZm] = useState(' API Limit ');
+  const [pton, setPton] = useState(" API Limit ");
+  const [zm, setZm] = useState(" API Limit ");
 
   function getPton() {
     fetch(
@@ -66,10 +66,8 @@ export default function Ticker() {
   return (
     <div className="Ticker unselectable box-shadow">
       <h1>Last Close</h1>
-      <h2 className="headline box-shadow">PTON   ${pton}</h2>
-      <h2 className="headline box-shadow">ZM   ${zm}</h2>
+      <h2 className="headline box-shadow">PTON ${pton}</h2>
+      <h2 className="headline box-shadow">ZM ${zm}</h2>
     </div>
   );
 }
-
-/**/

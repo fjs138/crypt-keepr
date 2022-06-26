@@ -8,14 +8,18 @@ export default function App() {
   return (
     <>
       <div className="App">
-        <img className="pointerEventsNone unselectable" alt="logo" style={{ padding: ".4em" }} src={logo} />
+        <img
+          className="pointerEventsNone unselectable"
+          alt="logo"
+          style={{ padding: ".4em" }}
+          src={logo}
+        />
 
         <div className="main">
           <CurrencyConverter />
           <Feed />
           <Ticker />
         </div>
-
       </div>
       <Footer />
     </>

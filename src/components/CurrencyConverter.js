@@ -9,7 +9,7 @@ export default function CurrencyConverter() {
   const [amountToConvertFrom, setAmountToConvertFrom] = useState(1);
   const [amountToConvertTo, setAmountToConvertTo] = useState(0);
   const [exchangeRate, setExchangeRate] = useState();
-  const [apiError,setApiError] = useState('apierror')
+  const [apiError, setApiError] = useState("apierror");
   // const [fromAmount, setFromAmount] = useState(1);
   // const [toAmount, setToAmount] = useState(1);
 
@@ -42,7 +42,7 @@ export default function CurrencyConverter() {
       })
       .catch(function (error) {
         console.error(error);
-        setApiError(error)
+        setApiError(error);
       });
   }
 
@@ -86,7 +86,9 @@ export default function CurrencyConverter() {
             <tr>
               <td className="unselectable">To</td>
               <td>
-                <h2>{amountToConvertTo?amountToConvertTo:'API Limit...'}</h2>
+                <h2>
+                  {amountToConvertTo ? amountToConvertTo : "API Limit..."}
+                </h2>
               </td>
               <td>
                 <select

@@ -25,25 +25,23 @@ code {
   flex-grow: inherit;
   background-color: #ddfff7;
   padding: 1em 1em 5em;
-
 }
 
 .main {
-  color:white;
+  color: white;
   flex: auto;
   flex-direction: column;
   display: flex;
   align-items: center;
   padding-right: 1em;
   padding-left: 1em;
-
 }
 
 /* News Feed */
 .Feed {
   cursor: default;
   border-radius: 25px;
-  background-color:var(--layer1);
+  background-color: var(--layer1);
   padding: 1em;
   margin: 1em;
   /*max-width: 60%;*/
@@ -55,15 +53,15 @@ code {
   padding: 0.5em;
   border-radius: 25px;
   margin-bottom: 0.25em;
-  margin-top: .25em;
+  margin-top: 0.25em;
 }
 
 /* Currency Converter */
 .CurrencyConverter {
   cursor: default;
   border-radius: 25px;
-  padding: .1em;
-  margin: .2em;
+  padding: 0.1em;
+  margin: 0.2em;
   text-align: center;
   background-color: var(--layer1);
 }
@@ -71,14 +69,14 @@ code {
 .CurrencyConverterTable {
   background-color: var(--layer2);
   border-radius: 10px;
-  padding: .1em;
-  margin: .5em;
+  padding: 0.1em;
+  margin: 0.5em;
 }
 
 .ExchangeRate {
   background-color: var(--layer2);
   border-radius: 10px;
-  padding: .1em;
+  padding: 0.1em;
   margin: 1em;
 }
 
@@ -88,12 +86,12 @@ code {
   border-radius: 25px;
   background-color: var(--layer1);
   padding: 1em;
-  margin: .2em;
+  margin: 0.2em;
   text-align: center;
 }
 
-.ticker-element{
-  padding: .1em;
+.ticker-element {
+  padding: 0.1em;
   margin: 0;
 }
 
@@ -101,9 +99,7 @@ code {
 .Footer {
   color: whitesmoke;
   background-color: darkslategray;
-
 }
-
 
 /* Tweaks */
 .no-highlight {
@@ -115,11 +111,11 @@ code {
   user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
 }
 
-.box-shadow{
+.box-shadow {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-.pointerEventsNone{
+.pointerEventsNone {
   pointer-events: none;
 }
 
@@ -150,9 +146,7 @@ a:active {
   background-color: rgba(219, 219, 219, 0.24);
   border-radius: 1em;
   /*box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;*/
-
 }
-
 
 /* Animations */
 /*.animate.fade {*/
@@ -170,6 +164,5 @@ a:active {
 /*    transition: opacity 0.5s;*/
 /*    opacity: 1;*/
 /*  }*/
-
 
 /*}*/
