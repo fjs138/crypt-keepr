@@ -1,6 +1,6 @@
 :root {
   /*--layer1: #93e1d8;*/
-  --layer2: #2288FF;
+  --layer2: #2288ff;
   /*--layer2: #f8968e;*/
   --layer1: #403d39;
 }
@@ -63,7 +63,9 @@ code {
   margin-top: 0.25em;
 }
 
-.header-padding {padding-top: 1em}
+.header-padding {
+  padding-top: 1em;
+}
 
 /* Currency Converter */
 .CurrencyConverter {
