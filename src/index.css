@@ -63,6 +63,8 @@ code {
   margin-top: 0.25em;
 }
 
+.header-padding {padding-top: 1em}
+
 /* Currency Converter */
 .CurrencyConverter {
   cursor: default;

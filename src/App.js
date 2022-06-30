@@ -15,7 +15,7 @@ export default function App() {
           src={logo}
         />
 
-        <div className="main">
+        <div className="header-padding main">
           <CurrencyConverter />
           <Feed />
           <Ticker />
