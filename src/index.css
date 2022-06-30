@@ -1,11 +1,18 @@
 :root {
-  --layer1: #93e1d8;
-  --layer2: #f8968e;
+  /*--layer1: #93e1d8;*/
+  --layer2: #2288FF;
+  /*--layer2: #f8968e;*/
+  --layer1: #403d39;
+}
+
+@font-face {
+  font-family: "Menlo";
+  src: url(./fonts/Menlo-Regular.ttf);
 }
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+  font-family: "Menlo", -apple-system, BlinkMacSystemFont, "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -23,7 +30,7 @@ code {
   flex-direction: column;
   flex: auto;
   flex-grow: inherit;
-  background-color: #ddfff7;
+  background-color: #8dadd1;
   padding: 1em 1em 5em;
 }
 
@@ -98,7 +105,7 @@ code {
 /* Footer */
 .Footer {
   color: whitesmoke;
-  background-color: darkslategray;
+  background-color: var(--layer2);
 }
 
 /* Tweaks */
