@@ -1,8 +1,10 @@
 :root {
-  /*--layer1: #93e1d8;*/
-  --layer2: #2288ff;
-  /*--layer2: #f8968e;*/
+  --layer1: #93e1d8;
   --layer1: #403d39;
+  --layer2: #f8968e;
+  --layer2: #2288ff;
+  --layer2: rgba(0, 0, 33, 0.66);
+  --layer3: #333333;
 }
 
 @font-face {
@@ -30,7 +32,7 @@ code {
   flex-direction: column;
   flex: auto;
   flex-grow: inherit;
-  background-color: #b2c2d3;
+  background-color: var(--layer3);
   padding: 1em 1em 5em;
 }
 
@@ -48,7 +50,9 @@ code {
 .Feed {
   cursor: default;
   border-radius: 25px;
-  background-color: var(--layer1);
+  /*background-color: var(--layer1);*/
+  background-image: linear-gradient(to right, #e052a0, #f15c41) !important;
+  color: #fff;
   padding: 1em;
   margin: 1em;
   /*max-width: 60%;*/
@@ -69,6 +73,8 @@ code {
 
 /* Currency Converter */
 .CurrencyConverter {
+  background-image: linear-gradient(to right, #e052a0, #f15c41) !important;
+  color: #fff;
   cursor: default;
   border-radius: 25px;
   padding: 0.1em;
@@ -93,6 +99,8 @@ code {
 
 /* Stock Ticker */
 .Ticker {
+  background-image: linear-gradient(to right, #e052a0, #f15c41) !important;
+  color: #fff;
   cursor: default;
   border-radius: 25px;
   background-color: var(--layer1);
@@ -177,3 +185,71 @@ a:active {
 /*  }*/
 
 /*}*/
+
+button {
+  /*display: inline-block;*/
+
+  display: inline-block;
+  outline: 0;
+  cursor: pointer;
+  border-radius: 6px;
+  border: 2px solid #ff4742;
+  color: #ff4742;
+  background: 0 0;
+  padding: 0.5em 0.5em 0.5em 0.5em;
+  margin: 0.5em 0.5em 0.5em 0.5em;
+
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 2px 4px 0px,
+    rgba(0, 0, 0, 0.05) 0px 1px 1.5px 0px;
+}
+
+button:hover {
+  background-color: #ff4742;
+  color: #fff;
+}
+
+input {
+  /*padding: 5px 12px;*/
+  /*font-size: 14px;*/
+  /*line-height: 20px;*/
+  color: #24292e;
+  /*vertical-align: middle;*/
+  background-color: #ffffff;
+  background-repeat: no-repeat;
+  background-position: right 8px center;
+  border: 1px solid #e1e4e8;
+  border-radius: 6px;
+  outline: none;
+  box-shadow: rgba(225, 228, 232, 0.2) 0px 1px 0px 0px inset;
+}
+
+input:focus {
+  border-color: #0366d6;
+  outline: none;
+  box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+}
+
+select {
+  margin: 0.5em 0.5em 0.5em 0.5em;
+  /*padding: 5px 12px;*/
+  /*font-size: 14px;*/
+  /*line-height: 20px;*/
+  color: #24292e;
+  /*vertical-align: middle;*/
+  background-color: #ffffff;
+  background-repeat: no-repeat;
+  background-position: right 8px center;
+  border: 1px solid #e1e4e8;
+  border-radius: 6px;
+  outline: none;
+  box-shadow: rgba(225, 228, 232, 0.2) 0px 1px 0px 0px inset;
+}
+select:focus {
+  border-color: #0366d6;
+  outline: none;
+  box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+}
+
+.amountToConvertFrom {
+  width: 7em;
+}

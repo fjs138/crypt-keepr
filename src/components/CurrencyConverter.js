@@ -63,6 +63,7 @@ export default function CurrencyConverter() {
               <td className="unselectable">From</td>
               <td>
                 <input
+                  className="amountToConvertFrom"
                   onChange={(e) => setAmountToConvertFrom(e.target.value)}
                   value={amountToConvertFrom}
                 />
@@ -78,16 +79,18 @@ export default function CurrencyConverter() {
                 </select>
               </td>
               <td>
-                <button onClick={(e) => setAmountToConvertFrom(1)}>
-                  Clear
-                </button>
+                {/*<button onClick={(e) => setAmountToConvertFrom(1)}>*/}
+                {/*  Reset*/}
+                {/*</button>*/}
               </td>
             </tr>
             <tr>
               <td className="unselectable">To</td>
               <td>
                 <h2>
-                  {amountToConvertTo ? amountToConvertTo : "API Limit..."}
+                  {amountToConvertTo
+                    ? amountToConvertTo.toFixed(2)
+                    : "API Limit..."}
                 </h2>
               </td>
               <td>
